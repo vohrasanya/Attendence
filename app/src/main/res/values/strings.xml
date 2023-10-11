@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Attendence</string>
+    <string name="email_address">emailaddress</string>
+    <string name="password">password</string>
+    <string name="attendance">Attendance Management</string>
+    <string name="login">Login to continue</string>
+    <string name="go">LOGIN</string>
+</resources>
