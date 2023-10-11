@@ -16,32 +16,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
             <ImageView
                 android:id="@+id/user"
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-                android:src="@drawable/img_1"
+                android:src="@drawable/img_2"
                 android:transitionName="logo_image"
                 tools:ignore="DuplicateIds" />
 
             <TextView
+                android:id="@+id/text2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
                 android:fontFamily="@font/bungee"
-                android:text="TEACHER PORTAL"
+                android:text="STUDENT PORTAL"
+                android:layout_gravity="center"
                 android:textColor="#000"
-                android:textSize="40sp"
-                android:transitionName="logo_text" />
-
+                android:textSize="40sp" />
 
         </LinearLayout>
 
 
 
 
-
     </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>>
