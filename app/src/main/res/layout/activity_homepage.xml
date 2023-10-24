@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:text="CHOOSE AN OPTION"
-        android:textSize="40dp"
+        android:textSize="35dp"
         android:fontFamily="@font/bungee"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
